@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.north1 {
+	height: 10%;
+	background-color: #003333;
+}
+
+
+.a {
+	text-decoration: none;
+}
+
+.label1 {
+	color: white;
+}
+
+.label2 {
+	margin-left: 42%;
+	margin-top: 1000px;
+	color: white;
+}
+
+.label3 {
+	color: black;
+	font-size: 150%;
+	margin-left: 25%;
+}
+
+.label4 {
+	font-size: 250%;
+	margin-left: 5%;
+}
+
+.vlayout1 {
+	border: 0px solid;
+	margin-top: 3%;
+}
+
+.center{
+  background-image: url('a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

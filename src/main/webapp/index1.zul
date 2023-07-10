@@ -1,0 +1,67 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/index.css"?>
+<zk>
+	<borderlayout sclass="bordelayout1"
+		apply="com.myproject.zk.IndexLogin">
+		<north sclass="north1">
+			<hlayout>
+				<label value=" Fee Management System "
+					style="color:white; font-weight: bold;font-size:35px;  margin-left:410px;margin-top:0px;   ">
+				</label>
+
+			</hlayout>
+		</north>
+
+		<center style=" border:0px solid; padding: 20px;">
+			<vlayout
+				style="background:#003333; border:0px solid; margin-left:350px;margin-top:30px; border-radius:4px;  "
+				height="300px" width="40%">
+				<separator />
+
+
+
+				<label value="Login Form" sclass="label1"
+					style="margin-left:145px; font-weight: bold;color: white; " />
+				<separator />
+				<separator />
+
+				<hlayout style="margin-left:125px">
+					<radiogroup id="userTypeGroup">
+						<radio label="Admin" id="adminRadio"
+							style=" color: white; " value="admin" />
+						<radio label="accountant" id="userRadio"
+							value="accountant" style=" color: white; " />
+					</radiogroup>
+				</hlayout>
+
+				<separator />
+				<separator />
+				<separator />
+				<hlayout style="margin-left:55px">
+					<label value="Email-id:" style=" color: white; " />
+					<textbox id="usernameBox" sclass="textbox1"
+						placeholder="Fill email id here" />
+				</hlayout>
+
+				<separator />
+				<hlayout style="margin-left:55px">
+					<label value="Password:" style=" color: white; " />
+					<textbox id="passwordBox"
+						placeholder="Fill password here" />
+				</hlayout>
+
+
+
+
+
+				<separator></separator>
+				<button id="login" label="Login" sclass="button1"
+					style="margin-left:58%;" />
+
+			</vlayout>
+		</center>
+		<south sclass="south1">
+			<label value="@copyright.2023.zk. " sclass="label3" />
+		</south>
+	</borderlayout>
+</zk>

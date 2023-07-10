@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.north1 {
+	height: 10%;
+	background-color: #003333;
+}
+
+.south1 {
+	height: 15%;
+	background-color: #003333;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.label1 {
+	color: white;
+}
+
+.label2 {
+	margin-left: 42%;
+	color: white;
+}
+.label3 {
+	font-size: 25px;
+}
+
+.vlayout1 {
+	border: 0px solid;
+	margin-left: 10%;
+}
+
+.textbox1 {
+	margin-left: 16%;
+}
+
+.textbox2 {
+	margin-left: 2%;
+}
+
+.textbox3 {
+	margin-left: 16%;
+}
+
+.textbox4 {
+	margin-left: 8%;
+}
+
+.textbox5 {
+	margin-left: 6%;
+}
+
+.button1 {
+	margin-left: 18%;
+	background-color: white;
+	color: black;
+	border: 1px solid;
+	font-size:12%;
+}

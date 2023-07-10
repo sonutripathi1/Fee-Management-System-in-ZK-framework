@@ -1,0 +1,54 @@
+<?page title="Auto Generated searchStudent.zul"?>
+<?link rel="stylesheet" type="text/css" href="/SearchStudentF.css"?>
+<zk>
+
+    <borderlayout apply="com.myproject.zk.SearchStudent">
+        <north sclass="north1">
+            <hlayout>
+                <a href="AccountantP.zul" sclass="a">
+                    <label value="Home" sclass="label1" />
+                </a>
+                <space />
+                <a href="AddStudentF.zul" sclass="a">
+                    <label value="Add Student" sclass="label1" />
+                </a>
+                <space />
+                <a href="ViewStudent.zul" sclass="a">
+                    <label value="View Student" sclass="label1" />
+                </a>
+                <space />
+                <a href="DueFee.zul" sclass="a">
+                    <label value="Due Fee" sclass="label1" />
+                </a>
+                <space />
+                <a href="SearchStudentF.zul" sclass="a">
+                    <label value="Search Student" sclass="label1" />
+                </a>
+                <space />
+                <a href="index1.zul" sclass="a">
+                    <label value="Logout" sclass="label1" />
+                </a>
+            </hlayout>
+        </north>
+
+        <center>
+            <vlayout sclass="vlayout1">
+                <label value="Search Student Form" sclass="label3" />
+                <separator />
+                <separator />
+
+                <hlayout>
+                    <label value="Roll No " />
+                    <spinner sclass="spinner1" id="rollNoSpinner" />
+                </hlayout>
+                <button label="Search Student" sclass="button1" id="searchButton"></button>
+
+                <label value="" sclass="label4" id="resultLabel" />
+            </vlayout>
+        </center>
+
+        <south sclass="south1">
+            <label value="@copyright.2023.zk. " sclass="label2" />
+        </south>
+    </borderlayout>
+</zk>

@@ -1,0 +1,119 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/EditStudentF.css"?>
+<zk>
+
+	<borderlayout height="120%"
+		apply="com.myproject.zk.EditStudentF">
+		<north sclass="north1">
+			<hlayout>
+				<a href="AccountantP.zul" sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddStudentF.zul" sclass="a">
+					<label value="Add Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewStudent.zul" sclass="a">
+					<label value="View Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="DueFee.zul" sclass="a">
+					<label value="Due Fee" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="SearchStudentF.zul" sclass="a">
+					<label value="Search Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul" sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center>
+			<vlayout sclass="vlayout1">
+
+				<label value="Edit Student Form" sclass="label3" />
+				<separator />
+				<separator />
+
+
+
+				<hlayout>
+					<label value="Name " />
+					<textbox id="name" sclass="textbox1"></textbox>
+				</hlayout>
+
+
+				<hlayout>
+					<label value="Email" />
+					<textbox id="email" sclass="textbox2"></textbox>
+				</hlayout>
+
+
+				<radiogroup id="radiogroupF" >
+					<hlayout >
+						<label value="Sex" />
+						<space />
+						<space />
+						
+						<radio label="Male" />
+						<radio label="Female" checked="true" />
+					</hlayout>
+				</radiogroup>
+
+				<hlayout>
+					<label value="Course" />
+					<combobox id="comboboxF" sclass="combox4">
+						<comboitem label="Java" />
+						<comboitem label="Zk" />
+						<comboitem label="Jasper" />
+						<comboitem label="Postgres Sql" />
+						<comboitem label="Html" />
+						<comboitem label="Css" />
+					</combobox>
+
+				</hlayout>
+				<hlayout>
+					<label value="Fee" />
+					<textbox id="fee" sclass="textbox5"></textbox>
+				</hlayout>
+				<hlayout>
+					<label value="Paid" />
+					<textbox id="paid" sclass="textbox6"></textbox>
+				</hlayout>
+				<hlayout>
+					<label value="Due" />
+					<textbox id="due" sclass="textbox7"></textbox>
+				</hlayout>
+
+				<hlayout>
+					<label value="Address" />
+					<textbox id="address" sclass="textbox8"
+						multiline="true" hflex="min" height="80px">
+					</textbox>
+				</hlayout>
+
+				<hlayout>
+					<label value="Contact" />
+					<textbox id="contact" sclass="textbox9"></textbox>
+				</hlayout>
+
+				<button id="update" label="Update Accountant"
+					sclass="button1">
+				</button>
+
+
+			</vlayout>
+		</center>
+
+
+		<south sclass="south1">
+			<label value="@copyright.2023.zk. " sclass="label2" />
+		</south>
+
+	</borderlayout>
+
+</zk>

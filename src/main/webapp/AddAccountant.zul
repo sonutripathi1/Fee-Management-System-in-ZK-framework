@@ -1,0 +1,74 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/AddAccountant.css"?>
+<zk>
+
+	<borderlayout height="100%" apply="com.myproject.zk.AddAccountant1">
+		<north sclass="north1">
+			<hlayout>
+				<a href="AdminP.zul" sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddAccountant.zul" sclass="a">
+					<label value="Add Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewAccountant.zul" sclass="a">
+					<label value="View Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul" sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center>
+			<vlayout sclass="vlayout1">
+				<label value="Add Accountant Form" sclass="label3" />
+				<separator />
+				<separator />
+
+				<hlayout>
+					<label value="Name " />
+					<textbox id="name" sclass="textbox1"></textbox>
+				</hlayout>
+
+				<hlayout>
+					<label value="Email" />
+					<textbox id="email" sclass="textbox3"></textbox>
+				</hlayout>
+
+				<hlayout>
+					<label value="Contact" />
+					<textbox id="cnt" sclass="textbox4"></textbox>
+				</hlayout>
+
+				<hlayout>
+					<label value="Address" />
+					<textbox id="address" sclass="textbox5"
+						multiline="true" hflex="min" height="100px">
+					</textbox>
+				</hlayout>
+				
+				<hlayout>
+					<label value="Password" />
+					<textbox id="password" sclass="textbox2"></textbox>
+				</hlayout>
+				
+				<button id="AddAccountBtn" label="Add Accountant"
+					sclass="button1">
+				</button>
+
+			</vlayout>
+		</center>
+
+
+		<south sclass="south1">
+			<label value="@copyright.2023.zk. " sclass="label2" />
+		</south>
+
+	</borderlayout>
+
+
+</zk>

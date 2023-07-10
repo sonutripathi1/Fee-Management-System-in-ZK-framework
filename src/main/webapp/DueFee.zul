@@ -1,0 +1,84 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/DueFee.css"?>
+<zk>
+
+	<borderlayout height="100%" width="150%"
+		apply="com.myproject.zk.DueFeeStudent">
+		<north sclass="north1" style="	position: fixed;">
+			<hlayout>
+				<a href="AccountantP.zul" sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddStudentF.zul" sclass="a">
+					<label value="Add Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewStudent.zul" sclass="a">
+					<label value="View Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="DueFee.zul" sclass="a">
+					<label value="Due Fee" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="SearchStudentF.zul" sclass="a">
+					<label value="Search Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul" sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center style="overflow-y: auto;">
+			<vlayout sclass="vlayout1" height="100%" vflex="min">
+
+				<label value="Due Fee" sclass="label3" />
+				<separator />
+				<separator />
+				<grid id="grid" mold="paging">
+					<columns height="22px">
+						<column label=" RollNo" sort="auto"
+							style="background:grey;" />
+						<column label="Name" sort="auto"
+							style="background:grey;" width="12%" />
+						<column label="Email" sort="auto"
+							style="background:grey;" width="15%" />
+						<column label="Sex " sort="auto"
+							style="background:grey;" />
+						<column label="Course" sort="auto"
+							style="background:grey;" />
+						<column label="Fee" sort="auto"
+							style="background:grey;" />
+						<column label="Paid" sort="auto"
+							style="background:grey;" />
+						<column label="Due" sort="auto"
+							style="background:grey;" />
+						<column label="Contact" sort="auto"
+							style="background:grey;" width="12%" />
+						<column label="Address" sort="auto"
+							style="background:grey;" width="12%" />
+						<column label="Edit" sort="auto"
+							style="background:grey;" />
+						<column label="Delete" sort="auto"
+							style="background:grey;" />
+					</columns>
+					<rows id="rows"></rows>
+				</grid>
+			</vlayout>
+
+		</center>
+		<south sclass="south1"
+			style="position: fixed;
+			bottom: 0;
+			width: 100%;">
+			<label value="@copyright.2023.zk. " sclass="label2" />
+		</south>
+
+
+
+	</borderlayout>
+
+</zk>

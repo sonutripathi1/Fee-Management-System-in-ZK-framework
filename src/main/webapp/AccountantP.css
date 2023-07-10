@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.north1 {
+	height: 10%;
+	background-color: #003333;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.label1 {
+	color: white;
+}
+
+.center {
+	background-image: url('b.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

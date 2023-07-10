@@ -1,0 +1,48 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/AccountantP.css"?>
+<zk>
+
+	<borderlayout>
+		<north sclass="north1">
+			<hlayout>
+				<a href="AccountantP.zul"
+					sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddStudentF.zul"
+					sclass="a">
+					<label value="Add Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewStudent.zul"
+					sclass="a">
+					<label value="View Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="DueFee.zul"
+					sclass="a">
+					<label value="Due Fee" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="SearchStudentF.zul"
+					sclass="a">
+					<label value="Search Student" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul"
+					sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center sclass="center" >
+		
+		</center>
+
+		
+
+	</borderlayout>
+
+</zk>

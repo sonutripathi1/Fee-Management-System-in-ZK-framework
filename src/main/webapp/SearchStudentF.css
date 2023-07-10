@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.north1 {
+	height: 10%;
+	background-color: #003333;
+}
+
+.south1 {
+	height: 15%;
+	background-color: #003333;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.label1 {
+	color: white;
+}
+
+.label2 {
+	margin-left: 42%;
+	color: white;
+}
+
+.label3 {
+	font-size: 25px;
+}
+
+.vlayout1 {
+	border: 0px solid;
+	margin-left: 15%;
+	margin-top: 7%;
+}
+
+.button1 {
+	margin-left: 6%;
+	
+	background-color: grey;
+	color: black;
+	border: 1px solid;
+	font-size:100%;
+}
+
+.spinner1{
+	width: 110%;
+}

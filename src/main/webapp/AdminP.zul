@@ -1,0 +1,52 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/Adminp.css"?>
+<zk>
+
+	<borderlayout>
+		<north sclass="north1">
+			<hlayout>
+				<a href="AdminP.zul" sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddAccountant.zul" sclass="a">
+					<label value="Add Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewAccountant.zul" sclass="a">
+					<label value="View Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="StudentReport.zul" sclass="a">
+					<label value="Student Report" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul" sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center sclass="center">
+
+
+
+			<vlayout sclass="vlayout1">
+				<label value="Admin Panel" sclass="label4"></label>
+				<space></space>
+				<a href="AddAccountant.zul" sclass="a">
+					<label value="Add Accountant" sclass="label3" />
+				</a>
+				<space></space>
+				<a href="ViewAccountant.zul" sclass="a">
+					<label value="View Accountant" sclass="label3" />
+				</a>
+			</vlayout>
+
+		</center>
+
+
+
+	</borderlayout>
+
+</zk>

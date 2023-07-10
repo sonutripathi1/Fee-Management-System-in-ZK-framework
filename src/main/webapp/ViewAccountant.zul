@@ -1,0 +1,65 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="/ViewAccountant.css"?>
+<zk>
+
+
+	<borderlayout height="100%"
+		apply="com.myproject.zk.ViewAccountant">
+		<north sclass="north1" >
+			<hlayout>
+				<a href="AdminP.zul" sclass="a">
+					<label value="Home" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="AddAccountant.zul" sclass="a">
+					<label value="Add Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="ViewAccountant.zul" sclass="a">
+					<label value="View Accountant" sclass="label1" />
+				</a>
+				<space></space>
+				<a href="index1.zul" sclass="a">
+					<label value="Logout" sclass="label1" />
+				</a>
+			</hlayout>
+		</north>
+
+		<center style="overflow-y: auto;">
+			<vlayout sclass="vlayout1" height="100%" vflex="min" >
+
+				<label value="View Accountant Form" sclass="label3" />
+				<separator />
+				<separator />
+				<grid id="gr" mold="paging"
+					>
+					<columns height="22px">
+						<column label=" Id" 
+							style="background:grey;" />
+						<column label="Name" 
+							style="background:grey;" />
+						<column label="Email" 
+							style="background:grey;" />
+					<column label="Contact" 
+							style="background:grey;" />
+						<column label="Address" 
+							style="background:grey;" />
+							<column label="Password" 
+							style="background:grey;" />
+						
+						<column label="Edit" 
+							style="background:grey;" />
+						<column label="Delete" 
+							style="background:grey;" />
+					</columns>
+					<rows id="rows"></rows>
+				</grid>
+			</vlayout>
+		</center>
+		<south sclass="south1" style="position: fixed;
+			bottom: 0;
+			width: 100%;">
+			<label value="@copyright.2023.zk. " sclass="label2" />
+		</south>
+	</borderlayout>
+</zk>

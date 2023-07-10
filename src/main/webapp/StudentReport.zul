@@ -1,0 +1,36 @@
+<zk>
+	<window border="normal" height="170%" width="100%"
+		apply="com.myproject.zk.JasperReportControllerA">
+		<caption
+			style="text-align: center; font-size: 130%; font-weight: bold; "
+			label="Generate Jasper Report">
+		</caption>
+		<vlayout>
+			<vlayout height="300px"
+				style="border: 10px solid blue; border-radius:5px;">
+				<separator></separator>
+				<separator></separator>
+				<separator></separator>
+				<combobox id="outputFormatsCombobox" autodrop="true"
+					style="margin-left:40%;" placeholder="Select Report Format">
+					<comboitem label="PDF" value="pdf" />
+					<comboitem label="HTML" value="html" />
+					<comboitem label="Excel" value="excel" />
+					<comboitem label="CSV" value="csv" />
+				</combobox>
+				<separator></separator>
+				<separator></separator>
+				<separator></separator>
+				<button id="generateReportBtn"
+					label=" All Student Records" width="20%"
+					style="background: #6666CC ; margin-left:41%;border-radius:8px;" />
+				<button id="generateReportBtn1"
+					label=" Due Student Records" width="20%"
+					style="background: #6666CC ; margin-left:41%;border-radius:8px;" />
+			</vlayout>
+			<label id="reportLabel" />
+			<iframe id="reportIframe" width="100%" height="640px" />
+
+		</vlayout>
+	</window>
+</zk>
